@@ -21,3 +21,4 @@ packaging
 nvidia-ml-py<=11.495.46 # mod_name=pynvml
 paddle-bfloat
 jsonpickle
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
