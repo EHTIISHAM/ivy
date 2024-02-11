@@ -3,9 +3,9 @@ pytest==7.1.2
 networkx==2.8.4
 hypothesis==6.55.0
 pymongo==4.3.3
-redis==4.3.4
+redis==4.3.6
 matplotlib==3.5.2
-opencv-python==4.6.0.66 # mod_name=cv2
+opencv-python==4.8.1.78 # mod_name=cv2
 tensorflow-probability==0.17.0 # mod_name=tensorflow_probability
 functorch==0.1.1
 scipy==1.8.1
@@ -21,3 +21,7 @@ packaging
 nvidia-ml-py<=11.495.46 # mod_name=pynvml
 paddle-bfloat
 jsonpickle
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=1.13.1 # not directly required, pinned by Snyk to avoid a vulnerability
