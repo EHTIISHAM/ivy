@@ -12,3 +12,4 @@ tensorflow-macos  # mod_name=tensorflow_macos
 tensorflow-probability  # mod_name=tensorflow_probability
 torch
 paddlepaddle  # unpinned , mod_name=paddle
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
