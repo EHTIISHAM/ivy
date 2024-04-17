@@ -24,3 +24,4 @@ pandas
 pyspark
 autoflake # for backend generation
 snakeviz # for profiling
+keras>=2.13.1rc0 # not directly required, pinned by Snyk to avoid a vulnerability
