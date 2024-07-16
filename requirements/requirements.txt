@@ -10,3 +10,4 @@ google-auth # mod_name=google.auth
 requests
 pyvis
 dill
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
