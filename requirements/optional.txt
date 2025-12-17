@@ -26,3 +26,5 @@ pyspark
 autoflake # for backend generation
 snakeviz # for profiling
 cryptography
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
