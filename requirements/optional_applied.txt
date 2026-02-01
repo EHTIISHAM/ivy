@@ -17,3 +17,5 @@ rllib
 seaborn
 datasets
 validators
+nbconvert>=7.17.0 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
